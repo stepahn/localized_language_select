@@ -41,13 +41,7 @@ The code borrows heavily from the LocalizedCountrySelect plugin - "localized_cou
 
 h2. Install & Usage
 
-Install as plugin:
-
-<pre>$ rails plugin install https://github.com/kristianmandrup/localized_language_select.git</pre>  
-
-Install as gem:
-
-Insert in Gemfile
+In your Gemfile add
 
 <pre>gem 'localized_language_select', :git => 'git://github.com/damianham/localized_language_select.git'</pre>
 
