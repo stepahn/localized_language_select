@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{localized_language_select}
-  s.version = "0.2.0"
+  s.version = "0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Kristian Mandrup"]
-  s.date = %q{2011-01-18}
-  s.description = %q{Localized language select for Rails 2.3+ with options to control languages to display}
+  s.authors = ["Kristian Mandrup","Damian Hamill"]
+  s.date = %q{2012-06-11}
+  s.description = %q{Localized language select for Rails 2.3+ /3.2+ with options to control languages to display}
   s.email = %q{kmandrup@gmail.com}
   s.extra_rdoc_files = [
     "README.textile"
@@ -29,7 +29,6 @@ Gem::Specification.new do |s|
     "lib/generators/localized_language_select/import/parse_helper.rb",
     "lib/generators/localized_language_select/locales_generator.rb",
     "lib/localized_language_select.rb",
-    "lib/localized_language_select/i18n.rb",
     "lib/tasks/localized_language_select_tasks.rake",
     "lib/tasks/yaml_locales_tasks.rake",
     "locale/da.yml",
@@ -42,11 +41,11 @@ Gem::Specification.new do |s|
     "test/localized_language_select_test.rb",
     "uninstall.rb"
   ]
-  s.homepage = %q{http://github.com/kristianmandrup/localized_language_select}
+  s.homepage = %q{http://github.com/damianham/localized_language_select}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{Localized language select for Rails 2.3+}
+  s.summary = %q{Localized language select for Rails 2.3+/ 3.2+}
   s.test_files = [
     "test/localized_language_select_test.rb"
   ]

@@ -6,6 +6,8 @@ storing language information as language _code_ (eg. 'sv'), not _name_ (eg. 'Swe
 Uses the Rails internationalization framework ("I18n":http://rails-i18n.org) for translating the names of languages.
 Requires Rails 2.2 (released November 21st, 2008) or later versions.
 
+This version works with Rails 3.2.2
+
 Language names are loaded from hashes in plugin directory, according to <tt>I18n.locale</tt> value.
 
 You can easily translate language codes in your application like this:
@@ -47,7 +49,7 @@ Install as gem:
 
 Insert in Gemfile
 
-<pre>gem 'localized_language_select'</pre>
+<pre>gem 'localized_language_select', :git => 'git://github.com/damianham/localized_language_select.git'</pre>
 
 Then to instal it, run:
 
