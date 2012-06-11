@@ -21,6 +21,8 @@
 
 # require 'localized_language_select/i18n'
 
+require 'localized_language/action_view_select'
+
 module LocalizedLanguageSelect
   class << self
     # Returns array with codes and localized language names (according to <tt>I18n.locale</tt>)
