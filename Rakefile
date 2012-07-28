@@ -23,6 +23,7 @@ Jeweler::Tasks.new do |gem|
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
 
   gem.add_runtime_dependency 'rails', '>= 2.3.5'
+  gem.add_runtime_dependency 'hpricot'
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'bundler'
 end
